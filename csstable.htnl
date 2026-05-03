@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Website with Careers</title>
+    <link rel="stylesheet" href="csstable.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="#careers" class="nav-link">Careers</a></li>
+        </ul>
+    </nav>
+
+    <!-- CAREERS SECTION -->
+    <section id="careers" class="careers-section">
+        <h1 class="heading">Careers</h1>
+
+        <table class="career-table">
+            <tr class="table-header">
+                <th class="table-heading">Job Title</th>
+                <th class="table-heading">Experience (Years)</th>
+                <th class="table-heading">Location</th>
+                <th class="table-heading">Age Requirement</th>
+                <th class="table-heading">Skills Required</th>
+            </tr>
+
+            <tr class="table-row">
+                <td class="table-data">Frontend Developer</td>
+                <td class="table-data">2+</td>
+                <td class="table-data">Karachi</td>
+                <td class="table-data">24 - 30</td>
+                <td class="table-data">HTML, CSS, JS, React, Git</td>
+            </tr>
+
+            <tr class="table-row">
+                <td class="table-data">Full Stack Developer</td>
+                <td class="table-data">3+</td>
+                <td class="table-data">Lahore</td>
+                <td class="table-data">24 - 30</td>
+                <td class="table-data">HTML, CSS, JS, React, MongoDB, Git</td>
+            </tr>
+
+            <tr class="table-row">
+                <td class="table-data">Backend Developer</td>
+                <td class="table-data">2+</td>
+                <td class="table-data">Islamabad</td>
+                <td class="table-data">24 - 30</td>
+                <td class="table-data">Node.js, MongoDB, Git</td>
+            </tr>
+
+        </table>
+    </section>
+
+</body>
+</html>
